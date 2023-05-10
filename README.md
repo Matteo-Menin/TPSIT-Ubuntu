@@ -19,54 +19,30 @@ Comandi
 3) sudo find . -type f -name "NomeFile.txt"
 4) sudo find . -type f -name "*.estensioneFile"
 5)mkdir a b c d e f g h i l m n o p q r s t u v w x y z                 
-mv a?* a
-mv A?* a
-mv b?* b
-mv B?* b              
-mv c?* c
-mv C?* c
-mv d?* d
-mv D?* d
-mv e?* e
-mv E?* e
-mv f?* f
-mv F?* f
-mv g?* g
-mv G?* g
-mv h?* h
-mv H?* h
-mv i?* i
-mv I?* I
-mv l?* l
-mv L?* l
-mv m?* m
-mv M?* m
-mv n?* n
-mv N?* n
-mv o?* o
-mv O?* o
-mv p?* p
-mv P?* p
-mv q?* q
-mv Q?* q
-mv r?* r
-mv R?* r
-mv s?* s
-mv S?* s
-mv t?* t
-mv T?* t
-mv u?* u
-mv U?* u
-mv v?* v
-mv V?* v
-mv w?* w
-mv W?* w
-mv x?* x
-mv X?* x
-mv y?* y
-mv Y?* y
-mv z?* z
-mv Z?* z
+mv a?* A?* a
+mv b?* B?* b             
+mv c?* C?* c
+mv d?* D?* d
+mv e?* E?* e
+mv f?* F?* f
+mv g?* G?* g
+mv h?* H?* h
+mv i?* I?* i
+mv l?* L?* l
+mv m?* M?* m
+mv n?* N?* n
+mv o?* O?* o
+mv p?* P?* p
+mv q?* Q?* q
+mv r?* R?* r
+mv s?* S?* s
+mv t?* T?* t
+mv u?* U?* u
+mv v?* V?* v
+mv w?* W?* w
+mv x?* X?* x
+mv y?* Y?* y
+mv z?* Z?* z
 
 
 
