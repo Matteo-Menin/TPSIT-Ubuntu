@@ -1,23 +1,22 @@
 #!/bin/bash
 
 # Define the menu options
-options=("Option 1" "Option 2" "Option 3" "Quit")
+options=("Option 1" "Option 2" "Option 3" "Option4" "Quit")
 
 # Define a function to handle the user's selection
 handle_selection() {
     case $1 in
         1) # Option 1
-            read -p "Insert the name of the file/folder you want to search for: " nfile	
+            read -p "Inserisci il nome del file che vuoi cercare: " nfile	
             find . -name "$nfile"	
-            echo "Executing code for Option 1..."  
+            echo "Eseguo il codice 1..."  
             ;;
         2) # Option 2
-            read -p "Insert the name of the txt file you want to search for: " namefile
+            read -p "Inserisci il nome del file txt che vuoi cercare: " namefile
             find . -type f -name "$namefile.txt"
-            echo "Executing code for Option 2..."
+            echo "Eseguo il codice 2..."
             ;;
         3) # Option 3
-            echo "Executing code for Option 3..."
             mkdir a b c d e f g h i j k l m n o p q r s t u v w x y z
             mv a?* A?* a
             mv b?* B?* b
@@ -45,29 +44,35 @@ handle_selection() {
             mv x?* X?* x 
             mv y?* Y?* y
             mv z?* Z?* z
-            
+            echo "Eseguo il codice 3..."
             ;;
-        4) # Quit
-            echo "Exiting..."
+            
+        4) # Option 4
+            #Paste the code here
+            ;;
+            
+            
+        5) # Quit
+            echo "Sto Uscendo..."
             exit
             ;;
         *) # Invalid option
-            echo "Invalid option. Please try again."
+            echo "Opzione non valida, per favore riprova."
             ;;
     esac
 }
 
-# Loop until the user selects the Quit option
+# Loop che esegue i comandi fino alla richiesta di uscita da parte dell'utente
 while true; do
-    # Display the menu
-    echo "Select an option:"
+    # Mostra il menù
+    echo "Seleziona un'opzione: "
     for i in "${!options[@]}"; do
         printf "%d) %s\n" "$((i+1))" "${options[$i]}"
     done
 
-    # Read the user's selection
-    read -rp "Enter option number: " selection
+    # Legge la selezione dell'utente
+    read -rp "Inserisci un numero: " selection
 
-    # Handle the user's selection
+    # Gestisce la selezione dell'utente
     handle_selection "$selection"
 done
