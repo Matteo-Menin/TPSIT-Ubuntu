@@ -7,14 +7,14 @@ options=("Option 1" "Option 2" "Option 3" "Quit")
 handle_selection() {
     case $1 in
         1) # Option 1
-            read -p "Inserisci il nome del file/cartella che vuoi cercare : " nfile	
-	    sudo find . -name "$nfile"	
-            echo "Eseguo il codice dell'opzione 1..."  
+            read -p "Insert the name of the file/folder you want to search for: " nfile	
+            find . -name "$nfile"	
+            echo "Executing code for Option 1..."  
             ;;
         2) # Option 2
-            read -p "Inserisci il nome  del file txt che vuoi cercare: " namefile
-            sudo find . -type f -name "$namefile.txt"
-            echo "Eseguo il codice dell'opzione 2..."
+            read -p "Insert the name of the txt file you want to search for: " namefile
+            find . -type f -name "$namefile"
+            echo "Executing code for Option 2..."
             ;;
         3) # Option 3
             echo "Executing code for Option 3..."
