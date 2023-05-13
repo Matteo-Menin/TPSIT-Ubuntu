@@ -18,7 +18,7 @@ handle_selection() {
             ;;
         3) # Option 3
             echo "Executing code for Option 3..."
-            sudo find . -type f -name ".estensioneFile" 5)mkdir a b c d e f g h i l m n o p q r s t u v w x y z
+            mkdir a b c d e f g h i j k l m n o p q r s t u v w x y z
             mv a?* A?* a
             mv b?* B?* b
             mv c?* C?* c
