@@ -18,7 +18,9 @@ Comandi
 2) sudo find . -name "NomeFile" 
 3) sudo find . -type f -name "NomeFile.txt"
 4) sudo find . -type f -name "*.estensioneFile"
+
 5)mkdir a b c d e f g h i l m n o p q r s t u v w x y z                 
+
 mv a?* A?* a
 mv b?* B?* b             
 mv c?* C?* c
@@ -44,6 +46,74 @@ mv x?* X?* x
 mv y?* Y?* y
 mv z?* Z?* z
 
+6)mkdir doc docx docm dot dotx dotm rtf odt txt xls xlsx xlsm xlsb xlt xltx xltm csv ods ppt pptx pptm pot potx potm ppsx ppsm odp psd psb ai eps pdf indd indt indb tif tiff mp4 mov avi wmv mkv flv mpg mpeg 3gp m4v webm vob ts m2ts mts ogv rmvb mp3 wav flac aac m4a ogg wma aiff ape alac dsd pcm
+
+mv *.doc doc
+mv *.docx docx
+mv *.docm docm
+mv *.dot dot
+mv *.dotx dotx
+mv *.dotm dotm
+mv *.rtf rtf
+mv *.odt odt
+mv *.txt txt
+mv *.xls xls
+mv *.xlsx xlsx
+mv *.xlsm xlsm
+mv *.xlsb xlsb
+mv *.xlt xlt
+mv *.xltx xltx
+mv *.xltm xltm
+mv *.csv csv
+mv *.ods ods
+mv *.ppt ppt
+mv *.pptx pptx
+mv *.pptm pptm
+mv *.pot pot
+mv *.potx potx
+mv *.potm potm
+mv *.ppsx ppsx
+mv *.ppsm ppsm
+mv *.odp odp
+mv *.psd psd
+mv *.psb psb
+mv *.ai ai
+mv *.eps eps
+mv *.pdf pdf
+mv *.indd indd
+mv *.indt indt
+mv *.indb indb
+mv *.tif tif
+mv *.tiff tiff
+mv *.mp4 mp4
+mv *.mov mov
+mv *.avi avi
+mv *.wmv wmv
+mv *.mkv mkv
+mv *.flv flv
+mv *.mpg mpg
+mv *.mpeg mpeg
+mv *.3gp 3gp
+mv *.m4v m4v
+mv *.webm webm
+mv *.vob vob
+mv *.ts ts
+mv *.m2ts m2ts
+mv *.mts mts
+mv *.ogv ogv
+mv *.rmvb rmvb
+mv *.mp3 mp3
+mv *.wav wav
+mv *.flac flac
+mv *.aac aac
+mv *.m4a m4a
+mv *.ogg ogg
+mv *.wma wma
+mv *.aiff aiff
+mv *.ape ape
+mv *.alac alac
+mv *.dsd dsd
+mv a*.pcm pcm
 
 
 
