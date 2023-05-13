@@ -13,7 +13,7 @@ handle_selection() {
             ;;
         2) # Option 2
             read -p "Insert the name of the txt file you want to search for: " namefile
-            find . -type f -name "$namefile"
+            find . -type f -name "$namefile.txt"
             echo "Executing code for Option 2..."
             ;;
         3) # Option 3
