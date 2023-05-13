@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Define the menu options
-options=("Option 1" "Option 2" "Option 3" "Option 4" "Quit")
+options=("Option 1" "Option 2" "Option 3" "Option 4" "Option 5" "Option 6" "Option 7" "Quit")
 
 # Define a function to handle the user's selection
 handle_selection() {
@@ -117,9 +117,17 @@ handle_selection() {
             mv a*.pcm pcm
             echo "Eseguo il codice 4..."
             ;;
-            
-            
-        5) # Quit
+           
+        5) # Option 5
+           #Il codice va qui
+            ;;
+        6) # Option 6
+           #Il codice va qui
+            ;;
+        7) # Option 7
+           #Il codice va qui
+            ;;
+        8) # Quit
             echo "Sto Uscendo..."
             exit
             ;;
