@@ -7,6 +7,42 @@
 
 using namespace std;
 
+
+void move(char letter, std::string format, int option) {
+    char upperletter = toupper(letter);
+    std::stringstream ss;
+    switch (option) {
+    case 5:
+        ss << "mv " << letter << "?* " << upperletter << "?* " << letter;
+        break;
+    case 6:
+        ss << "mv *." << format << " " << format;
+        break;
+    }
+    system(ss.str().c_str());
+}
+
+void movethreaded(int option) {
+    vector<char> alphabet = { 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z' };
+    vector<string> formats = { "doc", "docx", "docm", "dot", "dotx", "dotm", "rtf", "odt", "txt", "xls", "xlsx", "xlsm", "xlsb", "xlt", "xltx", "xltm", "csv", "ods", "ppt", "pptx", "pptm", "pot", "potx", "potm", "ppsx", "ppsm", "odp", "psd", "psb", "ai", "eps", "pdf", "indd", "indt", "indb", "tif", "tiff", "mp4", "mov", "avi", "wmv", "mkv", "flv", "mpg", "mpeg", "3gp", "m4v", "webm", "vob", "ts", "m2ts", "mts", "ogv", "rmvb", "mp3", "wav", "flac", "aac", "m4a", "ogg", "wma", "aiff", "ape", "alac", "dsd", "pcm" };
+    vector<thread> threads;
+    switch (option) {
+    case 5:
+        for (int i = 0; i < alphabet.size(); i++) {
+            threads.push_back(thread(move, alphabet[i], "filler", option));
+        }
+        break;
+    case 6:
+        for (int i = 0; i < formats.size(); i++) {
+            threads.push_back(thread(move, 'f', formats[i], option));
+        }
+    }
+    for (auto& th : threads) {
+        th.join();
+    }
+}
+
+
 int menu(string dirssderiv) {
     
     int option;
@@ -61,7 +97,10 @@ int menu(string dirssderiv) {
         cout << "Eseguo l'operazione " << option << "..." << endl;
         break;
     case 5:
-            // Metti il codice qui
+            mkdiralphabetss << dirssderiv << "mkdir a b c d e f g h i j k l m n o p q r s t u v w x y z";
+            system(mkdiralphabetss.str().c_str());
+            cout << "Eseguo l'operazione " << option << "..." <<endl;
+            movethreaded(option);
     case 6:
             // Metti il codice qui
     case 7:
@@ -70,7 +109,9 @@ int menu(string dirssderiv) {
         cout << "Exiting..." << endl;
         break;
     }
-    if (option == 1) { menu(dirss.str().c_str()); }
+    if (option == 1) { 
+        menu(dirss.str().c_str()); 
+    }
     return 0;
 }
 
