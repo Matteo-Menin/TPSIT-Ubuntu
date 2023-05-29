@@ -55,7 +55,11 @@ int menu(string dirssderiv) {
         system(txtss.str().c_str());
         break;
     case 4:
-            // Metti il codice qui
+        cout << "Inserisci il formato del file che vuoi cercare: ";
+        cin >> format;
+        namess << dirssderiv << "find . -type f -name *." << format;
+        cout << "Eseguo l'operazione " << option << "..." << endl;
+        break;
     case 5:
             // Metti il codice qui
     case 6:
