@@ -34,8 +34,12 @@ int menu(string dirssderiv) {
     cin >> option;
     
     switch (option) {
-    case 1:
-            // Metti il codice qui
+    case 1:          
+        cout << "Inserisci la directory su cui vuoi lavorare: ";
+        cin >> directory;
+        dirss << "cd " << directory << " && ";
+        cout << "Eseguo l'operazione " << option << "..." << endl;
+        break;
     case 2:
             // Metti il codice qui
     case 3:
