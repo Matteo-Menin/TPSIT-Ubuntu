@@ -1,0 +1,131 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2708
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 HelveticaNeue-Bold;\f1\fnil\fcharset0 HelveticaNeue;\f2\fnil\fcharset0 Menlo-Regular;
+\f3\fnil\fcharset0 HelveticaNeue-Italic;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red137\green131\blue250;\red255\green255\blue255;
+}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;\cssrgb\c60784\c60392\c98431;\cssrgb\c100000\c100000\c100000;
+}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid2\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li1440\lin1440 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid3\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li2160\lin2160 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid4\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li2880\lin2880 }{\listname ;}\listid1}
+{\list\listtemplateid2\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{decimal\}.}{\leveltext\leveltemplateid101\'02\'00.;}{\levelnumbers\'01;}\fi-360\li720\lin720 }{\listname ;}\listid2}
+{\list\listtemplateid3\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{decimal\}.}{\leveltext\leveltemplateid201\'02\'00.;}{\levelnumbers\'01;}\fi-360\li720\lin720 }{\listname ;}\listid3}
+{\list\listtemplateid4\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid301\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid302\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li1440\lin1440 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid303\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li2160\lin2160 }{\listname ;}\listid4}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}{\listoverride\listid2\listoverridecount0\ls2}{\listoverride\listid3\listoverridecount0\ls3}{\listoverride\listid4\listoverridecount0\ls4}}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\partightenfactor0
+
+\f0\b\fs60 \cf2 File Organizer\
+\pard\pardeftab720\partightenfactor0
+
+\f1\b0\fs28 \cf2 \
+\
+\pard\pardeftab560\partightenfactor0
+
+\fs26 \cf2 File Organizer \'e8 un'utility di ricerca e riorganizzazione dei file che implementa la programmazione concorrente in C++. \
+\
+\
+\pard\pardeftab560\partightenfactor0
+
+\f0\b\fs36 \cf2 Futures\
+\pard\pardeftab560\partightenfactor0
+
+\f1\b0\fs26 \cf2 \
+Le principali funzioni di File Organizer sono:\
+\pard\tx20\tx808\pardeftab560\li808\fi-809\partightenfactor0
+\ls1\ilvl0
+\f2 \cf2 {\listtext	\uc0\u8226 	}
+\f1 Selezionare su quale directory eseguire il programma\
+\ls1\ilvl0
+\f2 {\listtext	\uc0\u8226 	}
+\f1 Ricerca di un file/cartella dato il nome\
+\ls1\ilvl0
+\f2 {\listtext	\uc0\u8226 	}
+\f1 Ricerca di tutti i file .txt che contengono una data parola\
+\ls1\ilvl0
+\f2 {\listtext	\uc0\u8226 	}
+\f1 Ricerca di file per tipo\
+\ls1\ilvl0
+\f2 {\listtext	\uc0\u8226 	}
+\f1 Creazione di cartelle che dividano i file in ordine alfabetico \
+\ls1\ilvl0
+\f2 {\listtext	\uc0\u8226 	}
+\f1 Creazione di cartelle che dividano i file per tipo \
+\ls1\ilvl0
+\f2 {\listtext	\uc0\u8226 	}
+\f1 Creazione di cartelle che dividano i file per dimensione \
+\pard\tx720\tx1003\pardeftab560\li1003\fi-1004\partightenfactor0
+\ls1\ilvl3
+\fs31\fsmilli15600 \cf2 {\listtext	\uc0\u8226 	}
+\fs26 sotto 10 MB\
+\ls1\ilvl3
+\fs31\fsmilli15600 {\listtext	\uc0\u8226 	}
+\fs26 sotto 100 MB\
+\ls1\ilvl3
+\fs31\fsmilli15600 {\listtext	\uc0\u8226 	}
+\fs26 sotto 1GB \
+\ls1\ilvl3
+\fs31\fsmilli15600 {\listtext	\uc0\u8226 	}
+\fs26 over 1GB\
+\pard\pardeftab720\partightenfactor0
+
+\fs28 \cf2 \
+\
+\pard\pardeftab720\partightenfactor0
+
+\f0\b\fs36 \cf2 Esecuzione
+\f1\b0\fs28 \
+\
+\pard\tx20\tx458\pardeftab720\li458\fi-459\partightenfactor0
+\ls2\ilvl0
+\f0\b \cf2 {\listtext	1.	}
+\f1\b0 Clona il repository con
+\f3\i  \cf3 git clone
+\fs26  {\field{\*\fldinst{HYPERLINK "https://github.com/Matteo-Menin/TPSIT-Ubuntu.git"}}{\fldrslt 
+\fs28 \ul \ulc3 https://github.com/Matteo-Menin/TPSIT-Ubuntu.git}}
+\f1\i0 \cf2 \
+\pard\tx20\tx425\pardeftab720\li425\fi-426\partightenfactor0
+\ls2\ilvl0
+\f0\b \cf2 {\listtext	2.	}
+\f1\b0 Entra nella cartella del progetto con 
+\f3\i \cf3 cd File_Organizer
+\f1\i0 \cf2 \
+\ls2\ilvl0
+\f0\b {\listtext	3.	}
+\f1\b0 Digita 
+\f0\b :
+\f3\i\b0  \cf3 gcc File_Organizer.cpp
+\f1\i0 \cf2 \
+\pard\pardeftab720\partightenfactor0
+\cf2 \
+\pard\pardeftab720\partightenfactor0
+
+\f3\i \cf3 \
+\pard\pardeftab720\partightenfactor0
+
+\f0\i0\b\fs36 \cf2 Utilizzo\cb4 \
+\pard\pardeftab720\partightenfactor0
+
+\f1\b0\fs28 \cf2 \
+\pard\tx20\tx458\pardeftab720\li458\fi-459\partightenfactor0
+\ls3\ilvl0\cf2 \cb1 {\listtext	1.	}Seleziona la directory in cui vuoi eseguire la ricerca e la riorganizzazione dei file\
+{\listtext	2.	}Seleziona l'opzione desiderata tra le seguenti:\cb4 \
+\pard\tx480\tx785\pardeftab720\li785\fi-786\partightenfactor0
+\ls4\ilvl2
+\fs33\fsmilli16800 \cf2 \cb1 {\listtext	\uc0\u8226 	}
+\fs28 Ricerca di un file/cartella dato il nome: inserisci il nome del file o della cartella da cercare e il programma restituir\'e0 i risultati\cb4 \
+\ls4\ilvl2
+\fs33\fsmilli16800 \cb1 {\listtext	\uc0\u8226 	}
+\fs28 Ricerca di tutti i file .txt che contengono una data parola: inserisci la parola da cercare e il programma restituir\'e0 tutti i file .txt che la contengono\cb4 \
+\ls4\ilvl2
+\fs33\fsmilli16800 \cb1 {\listtext	\uc0\u8226 	}
+\fs28 Ricerca di file per tipo: seleziona il tipo di file da cercare (pdf, jpg, docx ecc...) e il programma restituir\'e0 tutti i file corrispondenti\cb4 \
+\ls4\ilvl2
+\fs33\fsmilli16800 \cb1 {\listtext	\uc0\u8226 	}
+\fs28 Creazione di cartelle che dividano i file in ordine alfabetico: il programma creer\'e0 una cartella per ogni lettera dell'alfabeto e sposter\'e0 i file corrispondenti nella cartella corretta\cb4 \
+\ls4\ilvl2
+\fs33\fsmilli16800 \cb1 {\listtext	\uc0\u8226 	}
+\fs28 Creazione di cartelle che dividano i file per tipo: il programma creer\'e0 una cartella per ogni tipo di file (pdf, jpg, docx ecc...) e sposter\'e0 i file corrispondenti nella cartella corretta\cb4 \
+\ls4\ilvl2
+\fs33\fsmilli16800 \cb1 {\listtext	\uc0\u8226 	}
+\fs28 Creazione di cartelle che dividano i file per dimensione: il programma creer\'e0 quattro cartelle (sotto 10 MB, sotto 100 MB, sotto 1GB, file pi\'f9 grandi) e sposter\'e0 i file corrispondenti nella cartella corretta\
+}
