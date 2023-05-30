@@ -7,8 +7,8 @@ File Organizer è un'utility di ricerca e riorganizzazione dei file che implemen
 ## Futures
 
 Le principali funzioni di File Organizer sono:
-Selezionare su quale directory eseguire il programma
-Ricerca di un file/cartella dato il nome
+- Selezionare su quale directory eseguire il programma
+- Ricerca di un file/cartella dato il nome
 Ricerca di tutti i file .txt che contengono una data parola
 Ricerca di file per tipo
 Creazione di cartelle che dividano i file in ordine alfabetico 
