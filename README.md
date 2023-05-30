@@ -17,7 +17,7 @@ Le principali funzioni di File Organizer sono:
   - sotto 10 MB
   - sotto 100 MB
   - sotto 1GB 
-  - over 1GB
+  - sopra 1GB
 
 
 ## Esecuzione
@@ -29,11 +29,12 @@ Le principali funzioni di File Organizer sono:
 
 ## Utilizzo
 
-1. Seleziona la directory in cui vuoi eseguire la ricerca e la riorganizzazione dei file
-2. Seleziona l'opzione desiderata tra le seguenti:
-3. Ricerca di un file/cartella dato il nome: inserisci il nome del file o della cartella da cercare e il programma restituirà i risultati
-4. Ricerca di tutti i file .txt che contengono una data parola: inserisci la parola da cercare e il programma restituirà tutti i file .txt che la contengono
-5. Ricerca di file per tipo: seleziona il tipo di file da cercare (pdf, jpg, docx ecc...) e il programma restituirà tutti i file corrispondenti
-6.Creazione di cartelle che dividano i file in ordine alfabetico: il programma creerà una cartella per ogni lettera dell'alfabeto e sposterà i file corrispondenti nella cartella corretta
-7.Creazione di cartelle che dividano i file per tipo: il programma creerà una cartella per ogni tipo di file e sposterà i file corrispondenti nella cartella corretta
-8.Creazione di cartelle che dividano i file per dimensione: il programma creerà quattro cartelle e sposterà i file corrispondenti nella cartella corretta
+1. Selezionare su quale directory eseguire il programma
+2. Ricerca di un file/cartella dato il nome
+3. Ricerca di tutti i file .txt che contengono una data parola
+4. Ricerca di file per tipo
+5. Creazione di cartelle che dividano i file in ordine alfabetico
+6. Creazione di cartelle che dividano i file per tipo
+7. Creazione di cartelle che dividano i file per dimensione
+
+
