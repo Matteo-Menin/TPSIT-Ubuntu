@@ -1,10 +1,10 @@
-## File Organizer
+# File Organizer
 
 
 File Organizer è un'utility di ricerca e riorganizzazione dei file che implementa la programmazione concorrente in C++. 
 
 
-Futures
+## Futures
 
 Le principali funzioni di File Organizer sono:
 Selezionare su quale directory eseguire il programma
